@@ -1,0 +1,57 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>  
+	<script type = "text/javascript"> 
+    function login()
+	{
+    x=true;
+
+	}	
+    
+</script> 
+    <link rel="stylesheet" type="text/css" href="cssstyle.css">    
+</head>    
+<body>  
+<body style="background-color: rgb(63, 202, 202);">
+
+
+
+<div style="background-color:black;color:white;padding:20px;">
+<img src="C:\xampp\htdocs\prj\images\logo.jpg" width=125 height=75 align="left"/>
+
+  <h1><center><b><emp>SCWA HOUSING SOCIETY</emp></b></h1></center>
+
+</div>     <h2>Login Page</h2><br>
+    
+    <div class="login">  
+            
+    <form id="login" method="post" action="http://localhost/prj/login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname"  placeholder="Username"/>    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" placeholder="Password"/><br><br>
+       <label for="user">User_Type</label>
+
+	<select name="usertype" >
+        <option value="admin">Admin</option>
+ 	    <option value="resident">Resident</option>
+	</select>    
+        <br><br>    
+      
+	    <input type="submit" name="Login" value=" Log in Here" class="btn" onClick="login()" />
+           
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+    </form>     
+</div> 
+  
+</body>    
+</html>

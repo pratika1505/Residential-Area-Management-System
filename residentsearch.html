@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head><title>Home</title>
+<script type = "text/javascript">
+     function profile1()
+     {
+      window.open ("registration.html");
+     }
+     function complaint1()
+     {
+      window.open ("complaint.html");
+     }
+     function notice1()
+     {
+      window.open ("notice.html");
+     }
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+    #leftbox { 
+        float:left;  
+        background:rgb(29, 75, 39); 
+        width:33%; 
+        height:280px; 
+    } 
+    #middlebox{ 
+        float:left;  
+        background:rgb(45, 47, 70); 
+        width:33%; 
+        height:280px; 
+    } 
+    #rightbox{ 
+        float:left; 
+        background:rgb(3, 77, 58); 
+        width:33%; 
+        height:280px; 
+    } 
+    h1{ 
+        color:rgb(252, 252, 252); 
+        text-align:center; 
+    } 
+    .button {
+  background-color: #cff860;
+  border: none;
+  color: rgb(5, 5, 5);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>  
+</head>  
+
+
+
+
+
+
+<body style="background-color: rgb(63, 202, 202);">
+
+
+
+    <div style="background-color:black;color:white;padding:20px;">
+    <img src="C:\Users\RANJANA\Desktop\Project dbms\prj\logo.jpg" width=125 height=75 align="left"/>
+    
+      <h1><center><b><emp>SCWA HOUSING SOCIETY</emp></b></h1></center>
+    
+    </div> 
+    
+    <br>
+    <br>
+    <form>
+        <input type="text" name="search" placeholder="Search..">
+      </form>
+
+
+
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    </style>
+    </head>
+
+
+
+<br><br>
+<div id = "boxes" style=color:rgb(22,21,21);> 
+    
+      
+    <div id = "leftbox"> 
+   <center><br><br>
+        <img src="C:\Users\RANJANA\Desktop\images\profile.jpg" width=100 height=100 align="center"/>
+        <br><br> <button class="button" onClick="profile1()">Profile</button>
+    </div>  
+      
+    <div id = "middlebox" style=color:rgb(15,15,15);> 
+ <center><br><br>
+        <img src="C:\Users\RANJANA\Desktop\images\complaint.jpg" width=100 height=100 align="center"/>
+        <br><br> <button class="button" onClick="complaint1()">Complaints</button>
+    </center>
+    </div> 
+      
+    <div id = "rightbox" style=color:rgb(10,10,10);> 
+     <center><br><br>
+        <img src="C:\Users\RANJANA\Desktop\images\notice.jpg" width=100 height=100 align="center"/>
+        <br><br><button class="button" onClick="notice1()">Notice</button>
+    </center>
+    </div> 
+</div> 
+ 
+</body>  
+</html>                 
